@@ -6,7 +6,7 @@ import '../styles/global.css';
 import { ButtonTimerComponent } from './components/example-base-component/button-timer.component';
 
 @Component({
-  selector: 'app-container',
+  selector: 'ng2d-sidebar',
   template: require('./app.component.html'),
   styles: [require('./app.component.css')],
 
@@ -15,7 +15,7 @@ import { ButtonTimerComponent } from './components/example-base-component/button
   ]
 })
 
-export class AppComponent implements OnInit {
+export class Ng2dSidebarComponent implements OnInit {
 
   ngOnInit(){
     console.log('App start load');
